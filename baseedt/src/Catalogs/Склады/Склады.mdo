@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46b6c718-ee87-4e93-abf7-76c0f333a7b3">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="46b6c718-ee87-4e93-abf7-76c0f333a7b3">
   <producedTypes>
     <objectType typeId="87bde6f2-0b5b-4f54-8e1b-f7ceb9e706b2" valueTypeId="3e0073f4-116c-45fa-9773-77817ed21a17"/>
     <refType typeId="209f8e30-2c49-46ce-8515-5d7f40feab98" valueTypeId="7021933e-3c95-4c60-b13e-98013849d01a"/>
@@ -31,4 +31,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2aa1632a-0c10-4042-b8f6-15f82e80583d">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
