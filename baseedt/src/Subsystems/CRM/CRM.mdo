@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4e4f7eb-2270-437c-aed0-e7c1f380cd45">
+  <name>CRM</name>
+  <synonym>
+    <key>ru</key>
+    <value>CRM</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>AccumulationRegister.ЗаказыКлиентов</content>
+  <content>Report.ОстаткиТоваров</content>
+  <subsystems>Документы</subsystems>
+  <subsystems>Взаимодействия</subsystems>
+  <subsystems>БизнесПроцессы</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3fbfd30a-baf8-4f1e-b42b-09f39dcc9539">
+  <name>React_Backend</name>
+  <synonym>
+    <key>ru</key>
+    <value>React backend</value>
+  </synonym>
+  <rootURL>1c</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="f86a432a-b362-41a4-b8bd-a4ce0c374503">
+    <name>Взаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействия</value>
+    </synonym>
+    <template>/actions</template>
+    <methods uuid="94f46f45-1f28-4677-89b1-4ef7af16bbe4">
+      <name>GetActions</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get actions</value>
+      </synonym>
+      <handler>ВзаимодействияGetActions</handler>
+    </methods>
+    <methods uuid="18521001-fbb5-4c65-abc3-65176bf5a3bc">
+      <name>PostActions</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post actions</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ВзаимодействияPostActions</handler>
+    </methods>
+    <methods uuid="d28c4c1c-67e2-4540-a3d1-d5717900d40c">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>OPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="47f67b80-3582-45ee-9812-566fb8b17170">
+    <name>Аутентификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аутентификация</value>
+    </synonym>
+    <template>/signin</template>
+    <methods uuid="e3af0cd3-af6a-4f93-bb3f-a7b1ee27ae3a">
+      <name>POSTSignIn</name>
+      <synonym>
+        <key>ru</key>
+        <value>POSTSign in</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>АутентификацияPOSTSignIn</handler>
+    </methods>
+    <methods uuid="de32f01d-72f0-48b3-9954-de0d37dc7a16">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>OPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="07fe315e-c946-4359-b6fa-36544a74d6b0">
+    <name>Регистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация</value>
+    </synonym>
+    <template>/signup</template>
+    <methods uuid="2c0f9b8d-fe38-4ce6-b604-5244ffdb1bf4">
+      <name>POSTSignUp</name>
+      <synonym>
+        <key>ru</key>
+        <value>POSTSign up</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>РегистрацияPOSTSignUp</handler>
+    </methods>
+    <methods uuid="f33a0d62-73bd-4d35-8c6e-d75245ee97c1">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>OPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="404f812f-cdc2-4c78-a9dd-698ce64ec42d">
+    <name>Заказы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы</value>
+    </synonym>
+    <template>/orders</template>
+    <methods uuid="bd2fec65-4669-4ba6-8233-41e67b4b498f">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>OPTIONS</handler>
+    </methods>
+    <methods uuid="23d011bc-fed5-462e-9b56-dd5ecb7c7569">
+      <name>GetOrders</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get orders</value>
+      </synonym>
+      <handler>ЗаказыGetOrders</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="f74c45e5-4b4f-40fb-a23c-3345d7c7b7a3">
+    <name>Отчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты</value>
+    </synonym>
+    <template>/reports</template>
+    <methods uuid="3896ef41-2dd2-4be0-8824-1ac2c3de9a4e">
+      <name>PostReport</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post report</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ОтчетыPOSTReport</handler>
+    </methods>
+    <methods uuid="c96f738b-3a00-4ed6-ae00-a1031b59ad8a">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>OPTIONS</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="130cc38c-7643-4c34-a62b-896f2a89269b">
+    <name>Пользователи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи</value>
+    </synonym>
+    <template>/users</template>
+    <methods uuid="8bfcee01-eb47-4ee3-b5a9-9cfde69046a3">
+      <name>OPTIONS</name>
+      <synonym>
+        <key>ru</key>
+        <value>OPTIONS</value>
+      </synonym>
+      <httpMethod>OPTIONS</httpMethod>
+      <handler>OPTIONS</handler>
+    </methods>
+    <methods uuid="c0865130-6c6e-4979-82a6-ac8ec6cc5aec">
+      <name>GetUsers</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get users</value>
+      </synonym>
+      <handler>ПользователиGetUsers</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

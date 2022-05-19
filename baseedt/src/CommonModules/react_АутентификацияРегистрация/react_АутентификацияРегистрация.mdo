@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92a024e1-db3e-4895-a156-ad01750e28cf">
+  <name>react_АутентификацияРегистрация</name>
+  <synonym>
+    <key>ru</key>
+    <value>React аутентификация регистрация</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

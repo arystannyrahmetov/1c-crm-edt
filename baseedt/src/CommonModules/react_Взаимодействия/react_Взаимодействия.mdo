@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4b364aa-6ae8-459b-9ed3-7e65f29c3c57">
+  <name>react_Взаимодействия</name>
+  <synonym>
+    <key>ru</key>
+    <value>React взаимодействия</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>
